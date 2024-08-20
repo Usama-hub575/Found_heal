@@ -1,0 +1,50 @@
+name: found_heal
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  dartz:
+  http:
+  shared_preferences:
+  get_it:
+  get:
+  flutter_svg:
+  image_picker:
+  file_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_gen:
+  flutter_gen_runner:
+  flutter_lints: ^2.0.0
+
+flutter_gen:
+  integration:
+    flutter_svg: true
+
+  colors:
+    inputs:
+      - assets/colors/colors.xml
+flutter:
+  uses-material-design: true
+
+
+  fonts:
+    - family: Red Hat Display
+      fonts:
+        - asset: assets/fonts/RedHatDisplay-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/RedHatDisplay-VariableFont_wght.ttf
+          style: italic
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/svg/
+    - assets/images/png/
